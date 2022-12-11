@@ -19,7 +19,7 @@ const instance = axios.create({
 export const complete = ({
   model = 'text-davinci-003',
   prompt,
-  temperature = 0.9,
+  temperature = 0.5,
   maxTokens = 2000,
   frequencyPenalty = 0,
   presencePenalty = 0.6,
